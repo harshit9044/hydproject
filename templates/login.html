@@ -1,0 +1,13 @@
+<h1> Here you can login </h1>
+<br><br>
+<div class='container'>
+	<form method="POST" action="">
+		{% csrf_token %}
+		Email: <input type="text" name="username" value=""><br>
+		Password: <input type="password" name="password" value=""><br>
+		<input type="submit" name="submit" value="LOGIN">
+	</form>
+</div>
+<h3>OR</h3>
+<br><br>
+<a href="/register/">Register</a>

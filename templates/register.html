@@ -1,0 +1,10 @@
+<div class="container">
+	<form method="POST">
+		{{ form.as_p }}
+		{% csrf_token %}
+		<input type="submit" value="SUBMIT">
+	</form>
+</div>
+<br><br>
+
+<a href="/login/">LOGIN</a>
